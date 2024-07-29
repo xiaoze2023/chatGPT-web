@@ -8,6 +8,6 @@ ENV PARAMS=""
 ENV TZ=PRC
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # 添加应用
-ADD /target/chatgpt-web.jar /chatgpt-web.jar /
+ADD /target/chatgpt-api.jar /chatgpt-api.jar
 # 执行镜像
-ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS /chatbot-api.jar $PARAMS"]
+ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS /chatgpt-web.jar $PARAMS"]
