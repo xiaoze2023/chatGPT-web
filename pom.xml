@@ -71,7 +71,7 @@
     </dependencies>
 
     <build>
-        <finalName>chatgpt-api</finalName>
+        <finalName>chatgpt-web</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
