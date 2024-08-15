@@ -12,10 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author 小傅哥，微信：fustack
- * @description 自定义Filter，用于拦截携带Token的请求
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
+自定义Filter，用于拦截携带Token的请求
  */
 public class JwtFilter extends AccessControlFilter {
 

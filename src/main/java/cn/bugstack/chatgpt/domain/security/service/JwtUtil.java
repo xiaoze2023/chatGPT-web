@@ -15,13 +15,11 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * @author 小傅哥，微信：fustack
  * @description 获取JwtToken，获取JwtToken中封装的信息，判断JwtToken是否存在
  * 1. encode()，参数是=签发人，存在时间，一些其他的信息。返回值是JwtToken对应的字符串
  * 2. decode()，参数是=JwtToken=。返回值是荷载部分的键值对
  * 3. isVerify()，参数是=JwtToken=。返回值是这个JwtToken是否存在
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
+
  */
 public class JwtUtil {
 
